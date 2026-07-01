@@ -11,7 +11,7 @@ function fromBase64url(str) {
   return JSON.parse(atob(padded));
 }
 
-const FAKE_SECRET = 'cinefokus-mock-signature';
+const FAKE_SECRET = 'movielist-mock-signature';
 
 export function signToken(payload, expiresInMs = 1000 * 60 * 60 * 24) {
   const header = { alg: 'mock256', typ: 'JWT' };

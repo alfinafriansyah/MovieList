@@ -6,7 +6,7 @@
  */
 
 function storageKey(userId) {
-  return `cinefokus_watchlist_${userId}`;
+  return `movielist_watchlist_${userId}`;
 }
 
 function delay(ms = 300) {

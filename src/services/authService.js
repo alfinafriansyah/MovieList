@@ -5,9 +5,9 @@ import { sanitizeText } from '../utils/validation';
  * authService.js
  */
 
-const USERS_KEY = 'cinefokus_users';
-const TOKEN_KEY = 'fokus_token'; // dipakai bersama httpClient.js
-const CURRENT_USER_KEY = 'cinefokus_current_user';
+const USERS_KEY = 'movielist_users';
+const TOKEN_KEY = 'movielist_token'; // dipakai bersama httpClient.js
+const CURRENT_USER_KEY = 'movielist_current_user';
 
 function readUsers() {
   try {
